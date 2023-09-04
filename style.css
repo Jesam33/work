@@ -1,0 +1,336 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    width: 90%;
+    height: 40px;
+    /* background-color: brown; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.main-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* column-gap: 5px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #212121;
+}
+.bud {
+    color: #C40042;
+}
+/* nav */
+nav ul {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    background-color: white;
+}
+nav {
+    margin-right: 1px;
+}
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #212121;
+}
+/* main-1*/
+.main-1 {
+    height: 90vh;
+    width: 100%;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* container-1 */
+.container-1 {
+    width: 90%;
+    height: 90%;
+    background-color: #C40042;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* left-container-1 */
+.left-container-1  {
+    width: 55%;
+    height: 100%;
+    background-color: aqua; 
+    color: #212121;
+    font-family: Poppins;
+    font-size: 34px;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* justify-content: center; */
+}
+.left-1-values {
+     background-color: red;
+    margin-top: 15%;
+    /* margin-left: 5%; */
+    width: 100%;
+}
+.left-container-1 button {
+    background-color: #212121;
+    width: 200px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: norma
+}
+.right-container-1 {
+    width: 55%;
+    height: 100%;
+     background-color: black;  
+}
+.right-1-values {
+    margin-top: 5%;
+    margin-left: 27%;
+}
+/* .left-container-1 h2 {
+    margin-top: 100px;
+} */
+
+.csuf {
+color: #3792C1;
+/* font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; */
+}
+/* container-2 */
+.main-2 {
+    height: 100vh;
+     width: 100%;
+     background-color: goldenrod;
+    /* background-color: #3792C1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-2 {
+    width: 90%;
+    height: 80%;
+      background-color: #C40042;  
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-container-2 {
+    width: 45%;
+    height: 100%;
+     background-color: maroon;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #212121;
+    font-family: Poppins;
+    font-size: 34px;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; */
+    /* justify-content: center; */
+}
+.right-container-2 {
+    width: 55%;
+    height: 100%;
+    background-color: goldenrod;  
+}
+.left-2-values {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    margin-right: 25%;
+    width: 100%;
+     background-color: #212121; 
+}
+.right-2-values {
+     background-color: red; 
+    margin-top: 15%;
+    /* margin-left: 5%; */
+    width: 100%;
+}
+.img-2 {
+    margin-right: 33%;
+}
+
+.right-container-2 h3 {
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 650;
+    margin-top: 100px;
+    text-align: right;
+
+}
+.txt-2 {
+    color: #212121;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+.txt-2 span {
+    color: #3792C1;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.txt-2 #acm {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* container-3 */
+.main-3 {
+    height: 160vh;
+     width: 100%;
+    /* background-color: goldenrod; */
+    /* background-color: goldenrod; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-3 {
+    width: 90%;
+    height: 100%;
+    /* background-color: peru;  */
+    margin: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.container-3 h2 {
+    text-align: center;
+    color: #212121;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container-3 .sub-id {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+.icons {
+    width: 100%;
+    /* height: 30%; */
+    padding: 20px 0px;
+    /* background-color: #C40042; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+.icon-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons p {
+color: #212121;
+text-align: right;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 10px;
+}
+.waiting-for {
+    margin-top: 200px;
+}
+
+.invite {
+color: #212121;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 10px;
+}
+.container-3 button {
+    background-color: #212121;
+    width: 200px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 42%;
+    margin-top: 3%;
+}
+.footer {
+    background-color: transparent;
+    width: 100%;
+    height: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: #212121;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
